@@ -51,6 +51,22 @@ table {
 	border-spacing: 0;
 }
 
+
+/* Chatswood section fix */
+
+.chatswood-section {
+    background-size: cover !important;
+    background-position: center center !important;
+    background-attachment: scroll !important;
+
+    box-shadow: none !important;
+}
+
+.chatswood-section:before,
+.chatswood-section:after {
+    display: none !important;
+}
+
 body {
 	-webkit-text-size-adjust: none;
 }
