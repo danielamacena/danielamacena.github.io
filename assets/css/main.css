@@ -4110,12 +4110,4 @@ input, select, textarea {
 
 	}
 
-/* Chatswood image fix */
 
-.chatswood-section .image:before {
-    background: transparent !important;
-}
-
-.chatswood-section .image img {
-    opacity: 1 !important;
-}
