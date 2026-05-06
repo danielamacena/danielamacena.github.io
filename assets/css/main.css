@@ -4111,3 +4111,16 @@ input, select, textarea {
 	}
 
 
+/* Chatswood section fix */
+
+section#two.chatswood-section {
+    background-attachment: scroll !important;
+    box-shadow: none !important;
+}
+
+section#two.chatswood-section:before,
+section#two.chatswood-section:after {
+    display: none !important;
+}
+
+
